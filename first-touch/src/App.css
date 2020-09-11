@@ -1,0 +1,49 @@
+*{
+  background-color: #282C34;
+}
+.App-header {
+  text-align: center;
+  background-color: #282C34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App{
+  
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.btn {
+  background-color: #61DAFB;
+  color: white;
+  border : 2px solid white;
+  border-radius: 10px;
+  font-size:24pt;
+  margin : 10pt;
+  height: 40pt;
+  width:40pt;
+  transition-duration: 0.2s;
+}
+.btn:hover{
+  box-shadow: 2px 2px 15px #2396B6;
+}
+
+.wrapper {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding:0;
+}
+
+img{
+  max-width: 33vw;
+}
